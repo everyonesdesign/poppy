@@ -200,14 +200,14 @@ proto.hide = function () {
 proto.place = function () {
 	var self = this;
 
-	//place properly (align by center)
-	//@deprecated - popup style is set via css
-	// place(this.$container, {
-	// 	relativeTo: [win.innerWidth * .5, 0],
-	// 	side: 'bottom',
-	// 	align: .5,
-	// 	within: this.$blind.$container
-	// });
+	/*place properly (align by center)
+	@deprecated - popup style is set via css
+	 place(this.$container, {
+	 	relativeTo: [win.innerWidth * .5, 0],
+	 	side: 'bottom',
+	 	align: .5,
+	 	within: this.$blind.$container
+	 });*/
 
 	//prevent anchor jump
 	setTimeout(function(){
